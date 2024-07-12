@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59</user-agent>
+  <!-- to get access to sites which require your credentials -->
+  <credentials user="your username for the site" password="your password for the site">site name</credentials>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="10">4</retry>
+  <!-- timespan 0 is one day -->
+  <timespan>0</timespan>
+  <update>i</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+			or run SiteIni.Pack.Update.exe which is in the bin folder
+  -->
+  
+  <!--
+     Canais | Filmes e Séries 
+  -->
+  
+  <channel update="i" site="lineup.net.br" site_id="310177" xmltv_id="AMC FHD">AMC FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1619" xmltv_id="AMC FHD [Alt]">AMC FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="MGM" xmltv_id="AMC HD">AMC HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1618##amc" xmltv_id="AMC HD [Alt]">AMC HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="amc" xmltv_id="AMC SD">AMC SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="334752" xmltv_id="AXN FHD">AXN FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_482" xmltv_id="AXN FHD [Alt]">AXN FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="AXN" xmltv_id="AXN HD">AXN HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="482##axn" xmltv_id="AXN HD [Alt]">AXN HD [Alt]</channel>  
+  <channel update="i" site="guiadatv.com" site_id="axn" xmltv_id="AXN SD">AXN SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="683243" xmltv_id="Canal Brasil FHD">Canal Brasil FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_414" xmltv_id="Canal Brasil FHD [Alt]">Canal Brasil FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="CBR" xmltv_id="Canal Brasil HD">Canal Brasil HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="2299##canal_brasil_hd_" xmltv_id="Canal Brasil HD [Alt]">Canal Brasil HD [Alt]</channel>
+  <channel update="i" site="lineup.net.br" site_id="538255" xmltv_id="Canal Sony FHD">Canal Sony FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_1500" xmltv_id="Canal Sony FHD [Alt]">Canal Sony FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="SET" xmltv_id="Canal Sony HD">Canal Sony HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1500##sony" xmltv_id="Canal Sony HD [Alt]">Canal Sony HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="sony" xmltv_id="Canal Sony SD">Canal Sony SD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_492" xmltv_id="Cinecanal FHD [Alt]">Cinecanal FHD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="cinecanal" xmltv_id="Cinecanal SD">Cinecanal SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="860020" xmltv_id="Cinemax FHD">Cinemax FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_1041" xmltv_id="Cinemax FHD [Alt]">Cinemax FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="MNX" xmltv_id="Cinemax HD">Cinemax HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1041##cinemax" xmltv_id="Cinemax HD [Alt]">Cinemax HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="cinemax" xmltv_id="Cinemax SD">Cinemax SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="656821" xmltv_id="FX FHD">FX FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="28_#_490" xmltv_id="FX FHD [Alt]">FX FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="CFX" xmltv_id="FX HD">FX HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="490##fx" xmltv_id="FX HD [Alt]">FX HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="fx" xmltv_id="FX SD">FX SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="247452" xmltv_id="MegaPix FHD">MegaPix FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="22_#_532" xmltv_id="MegaPix FHD [Alt]">MegaPix FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="MPX" xmltv_id="MegaPix HD">MegaPix HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="532##megapix" xmltv_id="MegaPix HD [Alt]">MegaPix HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="megapix" xmltv_id="MegaPix SD">MegaPix SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="952547" xmltv_id="Paramount Channel FHD">Paramount Channel FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="1_#_2423" xmltv_id="Paramount Channel FHD [Alt]">Paramount Channel FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="PAR" xmltv_id="Paramount Channel HD">Paramount Channel HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="447##paramount_network" xmltv_id="Paramount Channel HD [Alt]">Paramount Channel HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="paramount-network" xmltv_id="Paramount Channel SD">Paramount Channel SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="107575" xmltv_id="Space FHD">Space FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="1_#_876" xmltv_id="Space FHD [Alt]">Space FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="SPA" xmltv_id="Space HD">Space HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="876##space_hd_" xmltv_id="Space HD [Alt]">Space HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="space" xmltv_id="Space SD">Space SD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="1_#_1103" xmltv_id="Star Channel FHD [Alt]">Star Channel FHD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="star-channel" xmltv_id="Star Channel SD">Star Channel SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="730757" xmltv_id="Studio Universal FHD">Studio Universal FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_692" xmltv_id="Studio Universal FHD [Alt]">Studio Universal FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="HAL" xmltv_id="Studio Universal HD">Studio Universal HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="2062##studio_universal_hd" xmltv_id="Studio Universal HD [Alt]">Studio Universal HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="studio-universal" xmltv_id="Studio Universal SD">Studio Universal SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="287052" xmltv_id="TCM FHD">TCM FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_520" xmltv_id="TCM FHD [Alt]">TCM FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="TCM" xmltv_id="TCM HD">TCM HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="520##tcm" xmltv_id="TCM HD [Alt]">TCM HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="tcm" xmltv_id="TCM SD">TCM SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="259413" xmltv_id="TNT FHD">TNT FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_875" xmltv_id="TNT FHD [Alt]">TNT FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="TNT" xmltv_id="TNT">TNT HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="875##tnt_hd_" xmltv_id="TNT HD [Alt]">TNT HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="tnt" xmltv_id="TNT">TNT SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="428188" xmltv_id="TNT Series FHD">TNT Series FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="23_#_1203" xmltv_id="TNT Series FHD [Alt]">TNT Series FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="TNS" xmltv_id="TNT Series HD">TNT Series HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1203##tnt_series_hd" xmltv_id="TNT Series HD [Alt]">TNT Series HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="tnt-series" xmltv_id="TNT Series SD">TNT Series SD</channel>
+  <channel update="i" site="meuguia.tv" site_id="USA" xmltv_id="Universal Channel HD">Universal Channel HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="841551" xmltv_id="Syfy FHD">Syfy FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_530" xmltv_id="Syfy FHD [Alt]">Syfy FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="SCI" xmltv_id="SyFy HD">Syfy HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="530##syfy" xmltv_id="Syfy HD [Alt]">Syfy HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="syfy" xmltv_id="Syfy SD">Syfy SD</channel>
+  <channel update="i" site="lineup.net.br" site_id="392407" xmltv_id="Warner Channel FHD">Warner Channel FHD</channel>
+  <channel update="i" site="clarotv.com.br" site_id="11_#_2445" xmltv_id="Warner Channel FHD [Alt]">Warner Channel FHD [Alt]</channel>
+  <channel update="i" site="meuguia.tv" site_id="WBT" xmltv_id="Warner Channel HD">Warner Channel HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1009##warner_hd_" xmltv_id="Warner Channel HD [Alt]">Warner Channel HD [Alt]</channel>
+  <channel update="i" site="guiadatv.com" site_id="warner" xmltv_id="Warner Channel SD">Warner Channel SD</channel>
+    
+</settings>
